@@ -1,0 +1,97 @@
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  display: none; /*  might be enought */
+  background: transparent;
+  visibility: hidden;
+  width: 0px;
+}
+
+body {
+  background: #e9ebee !important;
+}
+
+.App {
+  /* text-align: center; */
+  padding: 20px;
+  background: #e9ebee;
+  width: 100%;
+  min-height: 100%;
+  text-align: left;
+}
+
+.editor {
+  position: relative;
+  margin: auto;
+  width: calc(50% - 20px);
+  /* min-height: 400px; */
+  background: white;
+  float: left;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.editor-hide-button {
+  display: none !important;
+  width: 200px;
+  position: absolute;
+  left: calc(50% - 100px);
+  margin-bottom: 20px;
+}
+
+.editor_avtar {
+  width: 120px;
+  float: left;
+  margin-top: 5px;
+}
+
+.editor_name,
+.editor_caption,
+.editor_time_privacy {
+  width: calc(100% - 120px);
+  margin-bottom: 8px;
+  float: left;
+}
+
+.select-time {
+  width: calc(65% - 10px) !important;
+  margin-right: 10px !important;
+}
+
+.editor-privacy {
+  width: 35% !important;
+}
+
+.result {
+  width: 50%;
+  float: left;
+}
+
+@media screen and (max-width: 899px) {
+  .App {
+    padding: 20px 5px;
+  }
+  .editor {
+    width: 100%;
+    float: none;
+  }
+  .result {
+    width: 100%;
+    float: none;
+  }
+  .editor-hide-button {
+    display: block !important;
+  }
+  .select-time {
+    width: 100% !important;
+    margin-right: 0 !important;
+  }
+
+  .editor-privacy {
+    width: 100% !important;
+    margin: 10px 0 0 0 !important;
+  }
+  .editor_caption {
+    width: 100%;
+  }
+}

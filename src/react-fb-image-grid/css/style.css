@@ -1,0 +1,105 @@
+@import 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css';
+@import 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css';
+
+html,
+body,
+#root,
+.App {
+  height: 100%;
+}
+
+/* Images Component CSS */
+
+.react-fb-image-grid {
+  margin: auto;
+}
+
+.react-fb-image-grid * {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  /* cursor: pointer; */
+}
+
+.col-md-4 {
+  width: 33.33333333%;
+}
+
+.border {
+  border: none;
+  border-radius: 0;
+}
+
+.background {
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
+
+.height-one {
+  height: 100%;
+  width: 100% !important;
+}
+
+.height-two {
+  height: 65%;
+  width: 100% !important;
+}
+
+.cover {
+  background-color: #222;
+  opacity: 0.8;
+  position: absolute;
+  right: 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.cover-text {
+  right: 0;
+  left: 0;
+  bottom: 0;
+  color: white;
+  font-size: 1.2em !important;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(0%, -50%);
+  -ms-transform: translate(0%, -50%);
+  transform: translate(0%, -50%);
+  text-align: center;
+}
+
+.cover-text > p {
+  margin: 0;
+  position: absolute;
+  font-size: 1.5em !important;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.slide {
+  height: 0;
+  bottom: 100%;
+  transition: 0.4s ease;
+  overflow: hidden;
+}
+
+.border:hover .slide {
+  bottom: 0;
+  height: auto;
+}
+
+.border:hover .animate-text {
+  top: 62%;
+}
+
+.beautify {
+  border: 2px solid white;
+  border-radius: 6px;
+}
+
+.cover-beautify {
+  border-radius: 6px;
+}

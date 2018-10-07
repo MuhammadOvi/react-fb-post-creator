@@ -1,0 +1,163 @@
+.post {
+  position: relative;
+  margin: auto;
+  /* min-height: 400px; */
+  background: white;
+  width: 100%;
+  float: left;
+  padding-top: 55px;
+}
+
+.avatar {
+  position: absolute;
+  display: inline-block;
+  top: 10px;
+  width: 45px;
+  height: 45px;
+  margin-left: 10px;
+  border-radius: 50%;
+  background: #e8e8e8;
+}
+
+.avatar img,
+.privacy img {
+  height: 100%;
+  width: 100%;
+  border-radius: inherit;
+  cursor: pointer;
+}
+
+.name {
+  position: absolute;
+  top: 15px;
+  left: 65px;
+  font-weight: bold;
+  color: #365899;
+  cursor: pointer;
+  font-size: 0.95em;
+}
+
+.time {
+  position: absolute;
+  top: 35px;
+  left: 65px;
+  color: #737880;
+  cursor: pointer;
+  font-size: 0.75em;
+}
+
+.time:hover {
+  text-decoration: underline;
+}
+
+.privacy {
+  position: absolute;
+  top: -1px;
+  height: 16px;
+  width: 16px;
+  right: -20px;
+  color: #737880;
+  font-size: 1em;
+}
+
+.dots {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.dots span {
+  display: block;
+  float: right;
+  margin: 2px;
+  height: 4px;
+  width: 4px;
+  border-radius: 50%;
+  background: #737880;
+}
+
+.dots:hover span {
+  background: black;
+}
+
+.caption {
+  position: relative;
+  padding: 10px 10px 5px;
+  font-size: 0.9em;
+}
+
+.images {
+  height: 400px;
+}
+
+.likesCount {
+  color: #737880;
+  font-size: 0.9em;
+  margin: 10px 10px 0;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.btns {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 40px;
+  text-align: center;
+  padding: 0 5px;
+  /* border: 1px solid lightgray; */
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.likeBtn,
+.commentBtn,
+.shareBtn {
+  width: 100%;
+  height: 80%;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  margin: 3px;
+}
+
+.likeBtn:hover,
+.commentBtn:hover,
+.shareBtn:hover {
+  background: #f1f1f1;
+}
+
+.likeBtn {
+  position: relative;
+}
+
+.likes img {
+  height: 20px;
+}
+
+.emojies {
+  position: absolute;
+  bottom: 30px;
+  width: 290px;
+  left: -5px;
+  background: #fff;
+  padding: 5px 5px 0;
+  border-radius: 20px;
+  box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.emoji {
+  display: inline-block;
+  width: 40px;
+  margin: 0 3px;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.emoji:hover {
+  transform: scale(1.3);
+}
