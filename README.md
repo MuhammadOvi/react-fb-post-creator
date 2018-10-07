@@ -1,22 +1,5 @@
-# PanaCloud Quiz App Using React
+# Dummy Facebook Post Creator
 
-Live: Live: https://oyeovi.github.io/PanaCloud
+Live: Live: https://oyeovi.github.io/react-fb-post-creator
 
-Proctoring Keys;
-
-* HTML Quiz 1: html01
-
-* HTML Quiz 2: html02
-So on...
-
-
-* JS Quiz 1: js01
-
-* JS Quiz 2: js02
-So on...
-
-
-* ReactJS Quiz 1: react01
-
-* ReactJS Quiz 2: react02
-So on...
+\*Use on PC/Laptop for good experience.
